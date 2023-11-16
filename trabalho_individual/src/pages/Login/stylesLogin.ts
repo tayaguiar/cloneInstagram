@@ -1,66 +1,65 @@
 import { StyleSheet } from "react-native";
 
-
 export const stylesLogin = StyleSheet.create({
-
   backgroundImage: {
     flex: 1,
-    resizeMode: 'cover', 
-    justifyContent: 'center', 
-    alignItems: 'center',
+    resizeMode: "cover",
+    justifyContent: "center",
+    alignItems: "center",
   },
 
-  languageText:{
-    justifyContent: 'center',
-    color: 'white',
+  languageText: {
+    justifyContent: "center",
+    color: "white",
   },
 
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingBottom: 200,
   },
 
   input: {
     height: 40,
     width: 300,
-    borderColor: 'gray',
+    borderColor: "gray",
     borderWidth: 1,
     marginBottom: 20,
     paddingHorizontal: 10,
-    backgroundColor: 'transparent', 
+    backgroundColor: "transparent",
     borderRadius: 5,
   },
 
   loginButton: {
-    width: '80%', 
+    width: "80%",
     paddingVertical: 10,
-    backgroundColor: '#3498db',
-    borderRadius: 20,  
+    backgroundColor: "#3498db",
+    borderRadius: 20,
   },
 
   buttonText: {
-    color: 'white',
+    color: "white",
     height: 22,
     width: 280,
-    textAlign: 'center',
+    textAlign: "center",
   },
 
   forgotPassword: {
     marginTop: 10,
-    color: 'white',
+    color: "white",
   },
 
-  instagramImage:{
-    width: 65, 
+  instagramImage: {
+    width: 65,
     height: 65,
     marginBottom: 70,
   },
 
-  metaLogo:{
-    width: 50, 
+  metaLogo: {
+    width: 50,
     height: 10,
+    resizeMode: "contain",
   },
 
   createAccountButton: {
@@ -68,26 +67,26 @@ export const stylesLogin = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 20,
-    borderColor: '#3498db',  
-    borderWidth: 2,          
-    backgroundColor: 'transparent',  
+    borderColor: "#3498db",
+    borderWidth: 2,
+    backgroundColor: "transparent",
     height: 40,
-    width: '80%',  
-    marginBottom: 10,    
+    width: "50%",
   },
-    
+
   createAccountText: {
-    color: '#3498db', 
-    textAlign: 'center',
-    fontWeight: 'bold',
+    color: "#3498db",
+    textAlign: "center",
+    fontWeight: "bold",
     height: 40,
     width: 255,
   },
 
   forgotPasswordContainer: {
-    marginBottom: 95,
+    marginBottom: 55,
+    flex: 1,
+    justifyContent: "flex-end",
   },
-    
-  });
+});
 
-  export default stylesLogin;
+export default stylesLogin;
